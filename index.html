@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- nav   -->
+    <nav id="menu">
+        <ul>
+            <li class="menu-item"><a href="#about">o mnie</a></li>
+            <li class="menu-item"><a href="#skills">umiejętności</a></li>
+            <li class="menu-item"><a href="#portfolio">portfolio</a></li>
+            <li class="menu-item"><a href="#contact">kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!--header-->
+    <header id="header-main"> 
+        <div id="header-caption">       
+            <h1 class="header-h">Jan <span class="green">Nowak</span></h1>
+            <h2 class="header-h">Front-End Developer</h2>
+        </div>
+    </header>
+
+    <!--section about-->
+    <section id="about">
+        <h2 class="section-h">O <span class="green">mnie</span></h2>
+        <figure class="col2"><img src="img/jan-nowak.jpg" alt=""></figure>
+        <div class="col2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, inventore tempora reprehenderit, modi excepturi suscipit natus accusamus esse optio cumque qui. Iure, explicabo, quos! Quidem qui, et consequuntur architecto iure.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, inventore tempora reprehenderit, modi excepturi suscipit natus accusamus esse optio cumque qui. Iure, explicabo, quos! Quidem qui, et consequuntur architecto iure.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, inventore tempora reprehenderit, modi excepturi suscipit natus accusamus esse optio cumque qui. Iure, explicabo, quos! Quidem qui, et consequuntur architecto iure.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, inventore tempora reprehenderit, modi excepturi suscipit natus accusamus esse optio cumque qui. Iure, explicabo, quos! Quidem qui, et consequuntur architecto iure.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+    </section>
+    
+    <!--section skills-->
+    <section id="skills">
+        <h2 class="section-h">Moje <span class="green">umiejętności</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis placeat debitis aspernatur ea eum iusto repudiandae impedit, dicta excepturi minima aliquam necessitatibus delectus? Excepturi accusantium velit explicabo quas, voluptate culpa.</p>
+        <figure class="skills-icon"><img src="icons/html5.png" alt=""><figcaption>HTML5</figcaption></figure>
+        <figure class="skills-icon"><img src="icons/css3.png" alt=""><figcaption>CSS3</figcaption></figure>
+        <figure class="skills-icon"><img src="icons/js.png" alt=""><figcaption>JavaScript</figcaption></figure>
+        <figure class="skills-icon"><img src="icons/jquery.png" alt=""><figcaption>JQuery</figcaption></figure>
+    </section>
+
+    <!--section portfolio-->
+    <section id="portfolio">
+        <h2 class="section-h">Moje <span class="green">portfolio</span></h2>
+        <figure class="col3"><img src="img/portfolio1.jpg" alt=""></figure>
+        <figure class="col3"><img src="img/portfolio2.jpg" alt=""></figure>
+        <figure class="col3"><img src="img/portfolio4.jpg" alt=""></figure>
+    </section>
+
+    <!--footer contact-->
+    <footer id="contact">
+        <address class="col2">
+            <h2 class="contact-h">Jan <span class="green">Nowak</span></h2>
+            <p class="contact-text">ul. Woronicza 17 <br> 00-950 Warszawa</p>
+            <p class="contact-text">tel. 600 600 600  <br> e-mail:<a href="mailto:example@gmaill.com">jannowak@gmaill.com</a></p>
+            <p class="contact-social">
+                <span class="social-icon">
+                    <i class="fa fa-faacebook fa-stack-1x"></i>
+                </span>
+                <span class="social-icon">
+                    <i class="fa fa-googleplus fa-stack-1x"></i>
+                </span>
+                <span class="social-icon">
+                    <i class="fa fa-twitter fa-stack-1x"></i>
+                </span>
+                <span class="social-icon">
+                    <i class="fa fa-linkedin fa-stack-1x"></i>
+                </span>
+            </p>
+        </address>
+        
+        <!--footer form-->
+        <form id="contact-form" method="POST" action="https://formspree.io/email@gmail.com" autocomplete="on">
+            <input type="text" name="name" id="name" placeholder="Imię Nazwisko">
+            <input type="email" name="email" id="email" placeholder="E-mail">
+            <textarea name="message" id="message" placeholder="Twoja wiadmość"></textarea>
+            <button type="submit">Wyślij</button>
+        </form>
+    </footer>
+    
+</body>
+</html>
