@@ -19,17 +19,38 @@
 }
 
 @media (max-width: 768px) {
-    #menu .toggle{display: block;
-    background-color: #fff;
-    padding: 0 20px;
-    color: #1ac056;
-    font-size: 20px;
-    line-height: 60px;
-    text-decoration: none;
-    border:none;
-    text-align: right;
+    #menu .toggle {
+        display: block;
+        background-color: #fff;
+        padding: 0 20px;
+        color: #1ac056;
+        font-size: 20px;
+        line-height: 60px;
+        text-decoration: none;
+        border: none;
+        text-align: right;
     }
-    
+    #menu ul {
+        display: none;
+    }
+    #menu #drop:checked+ul {
+        display: block;
+    }
+    #menu>ul>li {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        text-align: right;
+    }
+    #header-caption {
+        padding: 10px;
+    }
+    #header-caption h1 {
+        font-size: 4em;
+    }
+    #header-caption h2 {
+        font-size: 1.5em;
+    }
     #about figure img {
         max-width: 70%;
     }
