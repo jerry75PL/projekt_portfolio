@@ -51,10 +51,11 @@ section {
 /*nav style*/
 
 #menu {
+    top: 0;
     background-color: #fff;
     opacity: 0.5;
     width: 100%;
-    position: fixed;
+    position: sticky;
     z-index: 10;
 }
 
@@ -80,6 +81,32 @@ section {
 #menu .menu-item a:hover {
     color: #291f1a;
 }
+
+/*test menu*/
+
+#menu-icon {
+
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: #4C8FEC url(../img/menu-icon.png) center;
+
+}
+
+a:hover#menu-icon {
+
+	background-color: #444;
+	border-radius: 4px 4px 0 0;
+
+}
+
+
+
+
+
+/*end test menu*/
+
+
 
 
 /*header style*/
@@ -343,6 +370,12 @@ button[type="submit"] {
     float: right;
     margin: 20px 0;
     padding: 10px 20px;
+}
+
+button[type="submit"]:hover{
+    background-color: #fff;
+    color: #1ac056;
+    cursor: pointer;
 }
 
 .copyright {
