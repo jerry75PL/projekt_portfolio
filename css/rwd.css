@@ -1,0 +1,40 @@
+/*START RWD STYLE*/
+
+
+/* media 480 640 768 1200 */
+
+@media (max-width: 1200px) {
+    .col2 {
+        width: 100%;
+    }
+    #about figure img {
+        max-width: 60%;
+    }
+    .portfolio-item {
+        width: 50%;
+    }
+    #portfolio-item-3 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    #about figure img {
+        max-width: 70%;
+    }
+    .portfolio-item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    #about figure img {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    #about figure img {
+        max-width: 100%;
+    }
+}
