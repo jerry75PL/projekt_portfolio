@@ -13,12 +13,23 @@
     .portfolio-item {
         width: 50%;
     }
-    #portfolio-item-3 {
+    .portfolio-item:last-child {
         width: 100%;
     }
 }
 
 @media (max-width: 768px) {
+    #menu .toggle{display: block;
+    background-color: #fff;
+    padding: 0 20px;
+    color: #1ac056;
+    font-size: 20px;
+    line-height: 60px;
+    text-decoration: none;
+    border:none;
+    text-align: right;
+    }
+    
     #about figure img {
         max-width: 70%;
     }

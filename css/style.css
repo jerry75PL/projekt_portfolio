@@ -58,6 +58,9 @@ section {
     z-index: 10;
 }
 
+#menu .toggle, #drop {display: none}
+
+
 #menu .menu-item {
     display: inline-block;
     padding: 25px;
