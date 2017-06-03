@@ -28,7 +28,8 @@ figure {
     margin: 0;
 }
 
-section, footer {
+section,
+footer {
     padding: 30px 80px;
 }
 
@@ -46,6 +47,10 @@ section, footer {
 .col3 {
     width: 33%;
     float: left;
+}
+
+.nopadding {
+    padding: 0;
 }
 
 
@@ -143,6 +148,7 @@ section, footer {
     line-height: 24px;
 }
 
+
 /*umiejęteności */
 
 #skills {
@@ -161,7 +167,10 @@ section, footer {
 .skills-icon figcaption {
     padding-top: 20px;
 }
-/* portfolio*/ 
+
+
+/* portfolio*/
+
 #portfolio {
     width: 100%;
     text-align: center;
@@ -170,15 +179,17 @@ section, footer {
     background-color: #fff;
 }
 
-#portfolio h2{
+#portfolio h2 {
     padding-bottom: 50px;
 }
 
-#portfolio figure img{
+#portfolio figure img {
     max-width: 100%;
 }
 
+
 /* footer contact*/
+
 #contact {
     width: 100%;
     text-align: left;
@@ -187,22 +198,53 @@ section, footer {
     background-color: #213B50;
     color: #fff;
 }
+
+
+/*contact text address*/
+
+.contact-text {
+    font-style: normal;
+}
+
+.contact-text a {
+    font-style: normal;
+    color: #1ac056;
+}
+
+.contact-social {
+    margin-top: 60px;
+}
+
+.social-icon {
+    padding: 0 30px 0 0;
+}
+
+i.custom-border {
+    display: inline-block;
+    border: 1px solid #fff;
+    width: 50px;
+    height: 50px;
+}
+
+.custom-border {
+    text-align: center;
+    padding: 1em;
+}
+
+
 /* styl formularz */
 
 #contact-form {
-    width: 100%;
     background-color: #213b50;
     color: #fff;
-    padding: 20px;
 }
 
-
-input{
+input,
+textarea,
+button {
     display: block;
     margin: 10px 0 0 0;
 }
-
-
 
 input[type="text"],
 input[type="tel"],
@@ -212,25 +254,34 @@ textarea {
     color: #fff;
     border: 1px solid #2b4a64;
     margin-bottom: 5px;
-    width: 300px;
-    padding: 10px 0; /* zamiast wysokości lepiej padding height: 30px; */
-
+    width: 100%;
+    padding: 10px 0;
+    /* zamiast wysokości lepiej padding height: 30px; */
 }
 
-input:focus{
+input::placeholder,
+textarea::placeholder {
+    color: #A9A9A9;
+    padding: 5px;
+}
+
+input:focus,
+textarea:focus {
     background-color: #4e708c;
-    border:1px solid #fff;
-    outline:none;
+    border: 1px solid #fff;
+    outline: none;
 }
-
 
 button[type="submit"] {
     background-color: #1ac056;
     color: #fff;
-    border: none; /*lub border: 1px color tła*/
+    border: solid 1px #fff;
     text-transform: uppercase;
     font-weight: 700;
-    margin: 20px 0 ;
-    padding: 20px;
-        
+    float: right;
+    margin: 20px 0;
+    padding: 10px 20px;
 }
+
+
+/*koniec style form*/
