@@ -205,6 +205,22 @@ section {
     opacity: 1;
 }
 
+.item-content {
+    height: 330px;
+    border: 1px solid #fff;
+    margin: 10px;
+    position: relative;
+}
+.item-content-inner{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    left: 0;
+    padding: 5px;
+}
+
 
 
 
