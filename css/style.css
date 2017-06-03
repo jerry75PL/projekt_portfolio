@@ -221,7 +221,13 @@ section {
     padding: 5px;
 }
 
+.project-link {
+    color: #fff;
+}
 
+.project-link:hover {
+    color: #1ac056;
+}
 
 
 
