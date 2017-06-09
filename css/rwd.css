@@ -10,10 +10,10 @@
     #about figure img {
         max-width: 60%;
     }
-    .portfolio-item {
+    .flip-box {
         width: 50%;
     }
-    .portfolio-item:last-child {
+    .flip-box:last-child {
         width: 100%;
     }
 }
@@ -54,7 +54,7 @@
     #about figure img {
         max-width: 70%;
     }
-    .portfolio-item {
+    .flip-box {
         width: 100%;
     }
 }
