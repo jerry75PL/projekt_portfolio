@@ -4,44 +4,12 @@
 /* media 480 640 768 1200 */
 
 @media (max-width: 1200px) {
-    .col2 {
-        width: 100%;
-    }
     #about figure img {
         max-width: 60%;
-    }
-    .flip-box {
-        width: 50%;
-    }
-    .flip-box:last-child {
-        width: 100%;
     }
 }
 
 @media (max-width: 768px) {
-    #menu .toggle {
-        display: block;
-        background-color: #fff;
-        padding: 0 20px;
-        color: #1ac056;
-        font-size: 20px;
-        line-height: 60px;
-        text-decoration: none;
-        border: none;
-        text-align: right;
-    }
-    #menu ul {
-        display: none;
-    }
-    #menu #drop:checked+ul {
-        display: block;
-    }
-    #menu>ul>li {
-        display: block;
-        width: 100%;
-        padding: 20px;
-        text-align: right;
-    }
     #header-caption {
         padding: 10px;
     }
@@ -53,9 +21,6 @@
     }
     #about figure img {
         max-width: 70%;
-    }
-    .flip-box {
-        width: 100%;
     }
 }
 

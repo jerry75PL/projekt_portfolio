@@ -1,15 +1,22 @@
 /*general*/
 
+/*
 * {
     box-sizing: border-box;
 }
+*/
 
 body {
     font-family: 'Lato', sans-serif;
     color: #291f1a;
-    margin: 0;
-    background-color: antiquewhite;
+/*    margin: 0;*/
+/*    background-color: antiquewhite;*/
     /* background roboczy */
+}
+
+
+.row {
+    margin: 30px 0px;
 }
 
 a {
@@ -28,20 +35,24 @@ figure {
     margin: 0;
 }
 
+/*
 section {
     padding: 30px 80px;
 }
+*/
 
 .green {
     color: #1ac056;
     font-weight: 400;
 }
 
+/*
 .col2 {
     width: 50%;
     float: left;
     padding: 20px;
 }
+*/
 
 .nopadding {
     padding: 0;
@@ -160,9 +171,11 @@ section {
 /* portfolio*/
 
 #portfolio {
+/*
     width: 100%;
     text-align: center;
     overflow: hidden;
+*/
     /*floating elementów zawija głównny kontener do elementów bez float w tym wypadku do h i wypadają inne i się krzaczy, to rozciąga kontener */
     background-color: #fff;
 }
@@ -180,9 +193,11 @@ section {
 
 .flip-box {
     height: 350px;
+/*
     width: 33.33%;
     display: inline-block;
     text-align: center;
+*/
     perspective: 1000px;
 }
 
