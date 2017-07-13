@@ -9,56 +9,85 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/rwd.css">
+    <link rel="stylesheet" href="css/rwd1.css">
 </head>
 
 <body>
     <!-- nav   -->
-    <nav id="menu">
-        <label for="drop" class="toggle">Menu</label>
-        <input type="checkbox" id="drop">
-        <ul>
-            <li class="menu-item"><a href="#about">o mnie</a></li>
-            <li class="menu-item"><a href="#skills">umiejętności</a></li>
-            <li class="menu-item"><a href="#portfolio">portfolio</a></li>
-            <li class="menu-item"><a href="#contact">kontakt</a></li>
-        </ul>
+    <nav id="main-nav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#main-header">Moje Portfolio</a>
+            </div>
+            <div class="collapse navbar-collapse" id="main-menu">
+                <ul class="nav navbar-nav navbar-right text-right text-lowercase ">
+                    <li><a href="#about">o mnie</a></li>
+                    <li><a href="#skills">umiejętności</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+
     </nav>
 
     <!--header-->
-    <header id="header-main">
-        <div id="header-caption">
-            <h1 class="header-h">Jan <span class="green">Nowak</span></h1>
-            <h2 class="header-h">Front-End Developer</h2>
+    <header id="main-header" class="container-fluid text-center">
+        <div class="row">
+            <div id="header-caption" class="col-lg-12">
+                <h1 class="header-h">Jan <span class="green">Nowak</span></h1>
+                <h2 class="header-h">Front-End Developer</h2>
+            </div>
         </div>
     </header>
 
     <!--section about-->
     <section id="about">
-        <h2 class="section-h">O <span class="green">mnie</span></h2>
-        <figure class="col2"><img src="img/jan-nowak.jpg" alt=""></figure>
-        <div class="col2">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, inventore tempora reprehenderit, modi excepturi suscipit natus accusamus esse optio cumque qui. Iure, explicabo, quos! Quidem qui, et consequuntur architecto iure.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, inventore tempora reprehenderit, modi excepturi suscipit natus accusamus esse optio cumque qui. Iure, explicabo, quos! Quidem qui, et consequuntur architecto iure.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, inventore tempora reprehenderit, modi excepturi suscipit natus accusamus esse optio cumque qui. Iure, explicabo, quos! Quidem qui, et consequuntur architecto iure.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, inventore tempora reprehenderit, modi excepturi suscipit natus accusamus esse optio cumque qui. Iure, explicabo, quos! Quidem qui, et consequuntur architecto iure.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <div class="container text-center">
+            <div class="row">
+                <h2 class="section-h">O <span class="green">mnie</span></h2>
+            </div>
+            <div class="row">
+                <figure class="col-lg-6"><img src="img/jan-nowak.jpg" alt=""></figure>
+                <div class="col-lg-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, inventore tempora reprehenderit, modi excepturi suscipit natus accusamus esse optio cumque qui. Iure, explicabo, quos! Quidem qui, et consequuntur architecto iure.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, inventore tempora reprehenderit, modi excepturi suscipit natus accusamus esse optio cumque qui. Iure, explicabo, quos! Quidem qui, et consequuntur architecto iure.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, inventore tempora reprehenderit, modi excepturi suscipit natus accusamus esse optio cumque qui. Iure, explicabo, quos! Quidem qui, et consequuntur architecto iure.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, inventore tempora reprehenderit, modi excepturi suscipit natus accusamus esse optio cumque qui. Iure, explicabo, quos! Quidem qui, et consequuntur architecto iure.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <!--section skills-->
     <section id="skills">
-        <h2 class="section-h">Moje <span class="green">umiejętności</span></h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis placeat debitis aspernatur ea eum iusto repudiandae impedit, dicta excepturi minima aliquam necessitatibus delectus? Excepturi accusantium velit explicabo quas, voluptate culpa.</p>
-        <figure class="skills-icon"><img src="icons/html5.png" alt="html5">
-            <figcaption>HTML5</figcaption>
-        </figure>
-        <figure class="skills-icon"><img src="icons/css3.png" alt="css3">
-            <figcaption>CSS3</figcaption>
-        </figure>
-        <figure class="skills-icon"><img src="icons/js.png" alt="js">
-            <figcaption>JavaScript</figcaption>
-        </figure>
-        <figure class="skills-icon"><img src="icons/jquery.png" alt="jquery">
-            <figcaption>JQuery</figcaption>
-        </figure>
+        <div class="container text-center">
+            <div class="row">
+                <h2 class="section-h">Moje <span class="green">umiejętności</span></h2>
+            </div>
+            <div class="row">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis placeat debitis aspernatur ea eum iusto repudiandae impedit, dicta excepturi minima aliquam necessitatibus delectus? Excepturi accusantium velit explicabo quas, voluptate culpa.</p>
+            </div>
+            <div class="row">
+                <figure class="skills-icon"><img src="icons/html5.png" alt="html5">
+                    <figcaption>HTML5</figcaption>
+                </figure>
+                <figure class="skills-icon"><img src="icons/css3.png" alt="css3">
+                    <figcaption>CSS3</figcaption>
+                </figure>
+                <figure class="skills-icon"><img src="icons/js.png" alt="js">
+                    <figcaption>JavaScript</figcaption>
+                </figure>
+                <figure class="skills-icon"><img src="icons/jquery.png" alt="jquery">
+                    <figcaption>JQuery</figcaption>
+                </figure>
+            </div>
+        </div>
     </section>
 
     <!--section portfolio-->
